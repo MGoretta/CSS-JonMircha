@@ -19,3 +19,44 @@ Selectores básicos:
 2) Identificadores - atributo id - #
 3) Clases - atributo class - .
  */
+
+ p{
+    color: midnightblue;
+ }
+
+ /* Dar estilos con ID se considera un antipatron */
+ #parrafo-2{
+    background-color: skyblue;
+ }
+
+ /* Dar estilos con clase nos permite reutilizar nuestro código css */
+ .bg-steelblue{
+    background-color: steelblue;
+ }
+
+ .bg-skyblue{
+    background-color: skyblue;
+ }
+
+ .text-20{
+    font-size: 20px;
+ }
+
+ .text-32{
+    font-size: 32px;
+ }
+
+ .text-white{
+    color: white;
+ }
+
+ .hijos-directos>li{
+    background-color: thistle;
+ }
+ 
+ .hijos-descendientes b {
+    background-color: thistle;
+ }
+
+
+
