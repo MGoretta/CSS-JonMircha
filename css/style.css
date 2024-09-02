@@ -58,5 +58,13 @@ Selectores básicos:
     background-color: thistle;
  }
 
+ /* Los selectores de hermanos van a aplicar a los elementos que son hermanos y que estén por debajo del elemento tomado de referencia */
+ .hermanos-general ~ li{
+background-color: thistle;
+ }
+
+ .hermanos-adyacentes + li{
+   background-color: thistle;
+    }
 
 
