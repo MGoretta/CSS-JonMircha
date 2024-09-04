@@ -64,7 +64,30 @@ background-color: thistle;
  }
 
  .hermanos-adyacentes + li{
-   background-color: thistle;
-    }
+background-color: thistle;
+ }
 
+ /* Selectores de atributos */
+ .selectores-atributos a[href]{
+   color: orangered;
+ }
+
+ .selectores-atributos a[target="_blank"]{
+   font-weight: bold;
+ }
+
+ /* El comodín del asterisco aplica al estilo si contiene el texto en cuestión en cualquier parte*/
+ .selectores-atributos a[href*="jonmircha"]{
+   font-size: 24px;
+ }
+
+ /* El comodín del ^ aplica el estilo si contiene el texto en cuestión al inicio */
+ .selectores-atributos a[href^="http://"]{
+   text-decoration: none;
+ }
+
+ /* El comodín del $ aplica el estilo si contiene el texto en cuestión al inicio */
+ .selectores-atributos a[href$=".com"]{
+   background-color: black;
+ }
 
