@@ -81,13 +81,13 @@ background-color: thistle;
    font-size: 24px;
  }
 
- /* El comodín del ^ aplica el estilo si contiene el texto en cuestión al inicio */
+ /* El comodín del ^ aplica el estilo si finaliza con el texto en cuestión */
  .selectores-atributos a[href^="http://"]{
    text-decoration: none;
  }
 
- /* El comodín del $ aplica el estilo si contiene el texto en cuestión al inicio */
- .selectores-atributos a[href$=".com"]{
-   background-color: black;
+ /* El comodín del ~ aplica el estilo si contiene el texto en cuestión en una lista separada por espacios */
+ .selectores-atributos a[class~="cursos"]{
+   background-color: midnightblue;
  }
 
