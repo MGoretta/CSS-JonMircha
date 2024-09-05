@@ -91,3 +91,8 @@ background-color: thistle;
    background-color: midnightblue;
  }
 
+ /* El comodín del | aplica el estilo si contiene el texto en cuestión en una lista separada por espacios y que después del texto en cuestión pueda venir un guión medio*/
+ .selectores-atributos a[class|="menu"]{
+   font-style: italic;
+ }
+
