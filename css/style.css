@@ -105,3 +105,32 @@ background-color: thistle;
    font-size: 24px;
  }
 
+ /* Pseudoclases: dan estilos dependiendo del contexto, posición o estado del elemento. en la documentación. */
+
+ .form-pseudoclases *:required {
+   border-color: yellow;
+ }
+
+ .form-pseudoclases *:valid {
+   border-color: green;
+ }
+
+ .form-pseudoclases *:invalid {
+   border-color: rgb(204, 12, 12);
+ }
+
+ .form-pseudoclases *:focus {
+   background-color: skyblue;
+ }
+
+ .form-pseudoclases *:disabled {
+   background-color: pink;
+ }
+
+ .menu-pseudoclases a:visited {
+   color: olive;
+ }
+
+ .menu-pseudoclases a:hover {
+   color: orange;
+ }
