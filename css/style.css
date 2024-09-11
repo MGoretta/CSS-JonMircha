@@ -142,3 +142,7 @@ background-color: thistle;
 #temario-css:target{
   background-color: lightgreen;
 }
+
+.lista-pseudoclases li:first-child{
+  color: green;
+}
