@@ -134,3 +134,11 @@ background-color: thistle;
  .menu-pseudoclases a:hover {
    color: orange;
  }
+
+ .p-pseudoclases:hover{
+  font-size: 20px;
+ }
+
+#temario-css:target{
+  background-color: lightgreen;
+}
