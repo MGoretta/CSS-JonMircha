@@ -186,3 +186,8 @@ background-color: thistle;
 .articulo-pseudoclases *:not(p) {
   background-color: beige;
 }
+
+/* Pseudoelementos- Dan estilos a partes específicas de un elemento. Se usa el :: para 
+diferenciarlos de las pseudoclases. */
+
+
